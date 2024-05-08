@@ -1,13 +1,6 @@
 import streamlit as st
-from openpyxl import load_workbook
-from dotenv import load_dotenv
-import pandas as pd
-import warnings
-warnings.filterwarnings('ignore')
-import numpy as np
 import server
 import json
-load_dotenv()
 
 
 ipl_teams = ['CSK', 'DC', 'KKR', 'MI', 'PBKS', 'RR', 'RCB', 'SRH','GT','LSG']
