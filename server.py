@@ -19,7 +19,7 @@ def assist(team1, team2, players1, players2,apikey):
     thread_id=thread.id,
     assistant_id=assistant.id,
     instructions=f"Dream11 is a well-known fantasy sports platform where participants build virtual teams from real-life cricket players and earn points based on those players' performances in live matches. \
-Create a unique fantasy cricket teams, each designed to maximize winning potential in a fantasy league setting. Utilize comprehensive player data to assess past performances and predict future success within fantasy sports.\
+Create 15 unique fantasy cricket teams, each designed to maximize winning potential in a fantasy league setting. Utilize comprehensive player data to assess past performances and predict future success within fantasy sports.\
 To create a team for IPL Fantasy Cricket 2024 on Dream11 there are certain rules to follow. To build a solid Fantasy IPL team, you must have a combination of players listed below to make a solid squad.\
 \
 \
@@ -77,7 +77,7 @@ Between 50-59.99 runs per 100 balls- -4 Point\
 Below 50 runs per 100 balls- -6 Point     \
 \
 \
-I need to create a unique fantasy cricket teams based on specific player details. The team should be constructed in accordance with the fantasy league rules and the point system, taking into account the players' past performances from the csv provided. The columns team 1 bat 1, team 2 ball 2, etc correspond to the best batsmen and bowlers of the match. Ensure that the team created follows the valid combination constraints\
+I need to create 15 unique fantasy cricket teams based on specific player details. The team should be constructed in accordance with the fantasy league rules and the point system, taking into account the players' past performances from the csv provided. The columns team 1 bat 1, team 2 ball 2, etc correspond to the best batsmen and bowlers of the match. Ensure that the team created follows the valid combination constraints\
 The 11 players can be selected from the mixture of these 2 teams\
 \
 Plyers and their role \
